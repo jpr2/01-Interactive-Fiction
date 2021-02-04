@@ -1,0 +1,426 @@
+{
+    "passages": [
+      {
+        "text": "You are deep in a forest. A light breeze flows through your hair. The morning sun is rising slowly. A man calls out to you.\n\n[[Continue->Man]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": "Man",
+            "pid": "2"
+          }
+        ],
+        "name": "Pilot",
+        "pid": "1",
+        "position": {
+          "x": "1025",
+          "y": "25"
+        }
+      },
+      {
+        "text": "The man approaches you. He shares your looks. In his hand, a bow. On his back, a quiver.\n\n[[Who are you?->Response 1]]\n[[I thought I lost you.->Response 2]]",
+        "links": [
+          {
+            "name": "Who are you?",
+            "link": "Response 1",
+            "pid": "3"
+          },
+          {
+            "name": "I thought I lost you.",
+            "link": "Response 2",
+            "pid": "25"
+          }
+        ],
+        "name": "Man",
+        "pid": "2",
+        "position": {
+          "x": "1027",
+          "y": "197"
+        }
+      },
+      {
+        "text": "The man chuckles at you like you asked an obvious question.\n\"I'm your brother you goof. Jack, remember?\" he says between his laughing.\n\n[[\"I was just messing around\"->Try to play it off]]\n[[Ignore his laughter-> Ignore]]",
+        "links": [
+          {
+            "name": "\"I was just messing around\"",
+            "link": "Try to play it off",
+            "pid": "5"
+          },
+          {
+            "name": "Ignore his laughter",
+            "link": " Ignore",
+            "pid": "6"
+          }
+        ],
+        "name": "Response 1",
+        "pid": "3",
+        "position": {
+          "x": "796",
+          "y": "356"
+        }
+      },
+      {
+        "text": "Your brother chuckles.\n\n\"You're not that fast now.\"\n\n[[Continue-> Begin hunt]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Begin hunt",
+            "pid": "7"
+          }
+        ],
+        "name": " Response 2",
+        "pid": "4",
+        "position": {
+          "x": "1445",
+          "y": "459"
+        }
+      },
+      {
+        "text": "Your attempt to play it off as a joke fails. Jack laughs more.\n\n[[Continue-> Begin hunt]] ",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Begin hunt",
+            "pid": "7"
+          }
+        ],
+        "name": "Try to play it off",
+        "pid": "5",
+        "position": {
+          "x": "501",
+          "y": "537"
+        }
+      },
+      {
+        "text": "You ignore Jack's laughing but he seems to think that's even more funny.\n\n[[Continue-> Begin hunt]] ",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Begin hunt",
+            "pid": "7"
+          }
+        ],
+        "name": " Ignore",
+        "pid": "6",
+        "position": {
+          "x": "1034",
+          "y": "513"
+        }
+      },
+      {
+        "text": "Jack gets down on one knee and carefully examines the grass.\n\n\"Looks like the deer went this way. Let's go.\"\n\n[[Continue-> Hunt starts]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Hunt starts",
+            "pid": "8"
+          }
+        ],
+        "name": " Begin hunt",
+        "pid": "7",
+        "position": {
+          "x": "1024",
+          "y": "711"
+        }
+      },
+      {
+        "text": "Jack takes off on a jog and you follow behind him. \n\nThe sounds of the forest animals are loud enough to cover your noise.\n\nJack begins to slow down.\n\n[[Continue-> Hunt continues]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Hunt continues",
+            "pid": "9"
+          }
+        ],
+        "name": " Hunt starts",
+        "pid": "8",
+        "position": {
+          "x": "1016",
+          "y": "875"
+        }
+      },
+      {
+        "text": "You see Jack take an arrow from his quiver. He quietly draws his bow.\n\nYou kneel behind him and can finally see what he sees.\n\nA large deer grazing.\n\n[[Continue-> Teaching]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Teaching",
+            "pid": "10"
+          }
+        ],
+        "name": " Hunt continues",
+        "pid": "9",
+        "position": {
+          "x": "1043",
+          "y": "1088"
+        }
+      },
+      {
+        "text": "\"You remember how to use a bow right?\"\n\n[[\"Yeah, I remember.\"-> Take the shot 1]]\n[[\"No, could you tell me again?\" -> Teaching 2]]",
+        "links": [
+          {
+            "name": "\"Yeah, I remember.\"",
+            "link": " Take the shot 1",
+            "pid": "11"
+          },
+          {
+            "name": "\"No, could you tell me again?\" ",
+            "link": " Teaching 2",
+            "pid": "12"
+          }
+        ],
+        "name": " Teaching",
+        "pid": "10",
+        "position": {
+          "x": "960",
+          "y": "1269"
+        }
+      },
+      {
+        "text": "You place your fingers onto the arrow and begin to draw your bow.\n\nChoose how much power you use:\n\n[[70%-> Miss 3]]\n[[80%-> Miss 3]]\n[[90%-> Hit 1]]\n[[100%-> Miss 1]]",
+        "links": [
+          {
+            "name": "70%",
+            "link": " Miss 3",
+            "pid": "18"
+          },
+          {
+            "name": "80%",
+            "link": " Miss 3",
+            "pid": "18"
+          },
+          {
+            "name": "90%",
+            "link": " Hit 1",
+            "pid": "15"
+          },
+          {
+            "name": "100%",
+            "link": " Miss 1",
+            "pid": "14"
+          }
+        ],
+        "name": " Take the shot 1",
+        "pid": "11",
+        "position": {
+          "x": "812",
+          "y": "1510"
+        }
+      },
+      {
+        "text": "\"These deer have a thicker hide. You have to curve the arrow to get through it.\"\n\nJack shows you the technique.\n\n\"Remember what Dad said, the trick is in your finger placement.\"\n\nHe has you notch an arrow and places your fingers where they should be.\n\n\"When you draw the arrow, pull back about 90% of the way. Too little and there won't be enough curve in the arrow. Too much power and you'll curve it too much.\"\n\n[[Continue-> Take the shot 2]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Take the shot 2",
+            "pid": "13"
+          }
+        ],
+        "name": " Teaching 2",
+        "pid": "12",
+        "position": {
+          "x": "1280",
+          "y": "1303"
+        }
+      },
+      {
+        "text": "You pull the bow string back.\n\nChoose how much power you use:\n\n[[70%-> Miss 2]]\n[[80%-> Miss 2]]\n[[90%-> Hit 2]]\n[[100%-> Miss 2]]",
+        "links": [
+          {
+            "name": "70%",
+            "link": " Miss 2",
+            "pid": "16"
+          },
+          {
+            "name": "80%",
+            "link": " Miss 2",
+            "pid": "16"
+          },
+          {
+            "name": "90%",
+            "link": " Hit 2",
+            "pid": "17"
+          },
+          {
+            "name": "100%",
+            "link": " Miss 2",
+            "pid": "16"
+          }
+        ],
+        "name": " Take the shot 2",
+        "pid": "13",
+        "position": {
+          "x": "1362",
+          "y": "1505"
+        }
+      },
+      {
+        "text": "The arrow whistles through the air as it flies towards its target. \n\nTime seems to slow down as it takes flight.\n\n[[Continue -> Goes far]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Goes far",
+            "pid": "19"
+          }
+        ],
+        "name": " Miss 1",
+        "pid": "14",
+        "position": {
+          "x": "559",
+          "y": "1681"
+        }
+      },
+      {
+        "text": "The arrow whistles through the air as it flies towards its target. \n\nTime seems to slow down as it takes flight.\n\n[[Continue -> Hits the deer]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Hits the deer",
+            "pid": "20"
+          }
+        ],
+        "name": " Hit 1",
+        "pid": "15",
+        "position": {
+          "x": "738",
+          "y": "1685"
+        }
+      },
+      {
+        "text": "The arrow whistles through the air as it flies towards its target. \n\nTime seems to slow down as it takes flight.\n\n[[Continue -> Condescending remark 1]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Condescending remark 1",
+            "pid": "22"
+          }
+        ],
+        "name": " Miss 2",
+        "pid": "16",
+        "position": {
+          "x": "1287",
+          "y": "1655"
+        }
+      },
+      {
+        "text": "The arrow whistles through the air as it flies towards its target. \n\nTime seems to slow down as it takes flight.\n\n[[Continue -> Hits the deer]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Hits the deer",
+            "pid": "20"
+          }
+        ],
+        "name": " Hit 2",
+        "pid": "17",
+        "position": {
+          "x": "1437",
+          "y": "1655"
+        }
+      },
+      {
+        "text": "The arrow whistles through the air as it flies towards its target. \n\nTime seems to slow down as it takes flight.\n\n[[Continue -> Goes short]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Goes short",
+            "pid": "21"
+          }
+        ],
+        "name": " Miss 3",
+        "pid": "18",
+        "position": {
+          "x": "921",
+          "y": "1689"
+        }
+      },
+      {
+        "text": "The arrow curves too much and slams into a tree.\n\nThe deer looks up in surprise and takes off into the forest.\n\n[[Continue -> Jack's remark]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Jack's remark",
+            "pid": "23"
+          }
+        ],
+        "name": " Goes far",
+        "pid": "19",
+        "position": {
+          "x": "458",
+          "y": "1904"
+        }
+      },
+      {
+        "text": "The arrow curves perfectly into the deer's hide and it goes down swiftly.\n\n\"Nice shot! That curve was literally perfect!\" Exclaims Jack.",
+        "name": " Hits the deer",
+        "pid": "20",
+        "position": {
+          "x": "1092",
+          "y": "2268"
+        }
+      },
+      {
+        "text": "The arrow curves too little and slams into a tree with a thud.\n\nThe deer looks up in surprise and takes off into the forest.\n\n[[Continue-> Jack's remark]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": " Jack's remark",
+            "pid": "23"
+          }
+        ],
+        "name": " Goes short",
+        "pid": "21",
+        "position": {
+          "x": "753",
+          "y": "1905"
+        }
+      },
+      {
+        "text": "The arrow misses the deer and buries itself inside of a tree.\n\nThe deer looks up in surprise and takes off into the forest.\n\n[[Continue -> Condescending remark 2]]",
+        "links": [
+          {
+            "name": "Continue ",
+            "link": " Condescending remark 2",
+            "pid": "24"
+          }
+        ],
+        "name": " Condescending remark 1",
+        "pid": "22",
+        "position": {
+          "x": "1434",
+          "y": "1928"
+        }
+      },
+      {
+        "text": "Jack looks at you \"I thought you said that you remembered how to use it?\" and starts laughing at you hysterically.",
+        "name": " Jack's remark",
+        "pid": "23",
+        "position": {
+          "x": "597",
+          "y": "2106"
+        }
+      },
+      {
+        "text": "\"I literally told you what to do and how to do it and you still managed to mess it up. What a putz!\"\n\nJack begins to laugh at you hysterically.",
+        "name": " Condescending remark 2",
+        "pid": "24",
+        "position": {
+          "x": "1434",
+          "y": "2078"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "Response 2",
+        "pid": "25",
+        "position": {
+          "x": "1027",
+          "y": "347"
+        }
+      }
+    ],
+    "name": "Story for Project 01",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.12",
+    "ifid": "10B10CBE-4C42-4141-A282-5B99089DA07E"
+  }
